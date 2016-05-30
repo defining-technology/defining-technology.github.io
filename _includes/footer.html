@@ -1,0 +1,29 @@
+<div id="footerwrap">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <h4>About Us, the Short Version</h4>
+                <div class="hline-w"></div>
+                <p>{{ site.about }}</p>
+            </div>
+            <div class="col-lg-6">
+                <h4>We're a Sociable Bunch</h4>
+                <div class="hline-w"></div>
+                <p>
+                    {% for network in site.social %}
+                        <a href="{{ network.url }}" class="btn-social btn-outline"><i class="fa fa-{{ network.title }}"></i></a>
+                    {% endfor %}
+                </p>
+            </div>
+            <div class="col-lg-12">
+                <p>
+                  © 2016 Defining Technology Ltd.
+                </p>
+                <p>
+                  Defining Technology Ltd is a Private Limited Company registered in Scotland, with company number SC536230.
+                  Registered office: Suite 8, Fairfield, 1046 Govan Road, Glasgow, G51 4XS.
+                </p>
+            </div>
+        </div><! --/row -->
+    </div><! --/container -->
+</div><! --/footerwrap -->

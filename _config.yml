@@ -1,0 +1,65 @@
+### GENERAL SETTINGS ###
+
+# Site settings
+title: Defining Technology
+description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+analytics: #Google analytics code in the format XX-nnnnnnnn-n
+baseurl: "" #important: start with /
+url: "http://defining.tech"
+
+# Build settings
+markdown: kramdown
+permalink: /:categories/:title
+excerpt_separator: <!--more--> #use this in posts to define how long the excerpt of the post (that is shown on the Blog page) is
+
+colors:  #in hex code if not noted else
+  primary: "#17213E" #"#F70031"
+  primary_rgb: "23,33,62" #"247,0,49" #rgb of the primary. Needed in some places for the transparency effect.
+  secondary: "#575F73" #"#33004D"
+  link: "#428bca"
+  link_hover: "#01b2fe"
+  footer_heading: "#ffffff"
+  footer_content: "#bfc9d3"
+
+
+### CONTACT SETTINGS ###
+
+# Social networks usernames. Many more available: google-plus, flickr, linkedin, etc). Shown in footer.
+social:
+  - title: envelope
+    url: mailto:info@defining.tech
+  - title: twitter
+    url: http://twitter.com/defining_tech
+  - title: medium
+    url: https://medium.com/@defining_tech
+
+email: info@defining.tech
+
+technologies:
+  - icon: devicon-android-plain-wordmark
+    url: http://d.android.com
+  - icon: devicon-react-original-wordmark
+    url: https://facebook.github.io/react/
+  - icon: devicon-html5-plain-wordmark
+  - icon: devicon-css3-plain-wordmark
+  - icon: devicon-javascript-plain
+  - icon: devicon-nodejs-plain
+    url: https://nodejs.org/
+  - icon: devicon-csharp-plain
+  - icon: devicon-java-plain-wordmark
+  - icon: devicon-redis-plain-wordmark
+    url: http://redis.io/
+  - icon: devicon-mongodb-plain-wordmark
+    url: http://mongodb.com
+  - icon: devicon-postgresql-plain-wordmark
+    url: http://postgresql.org
+  - icon: devicon-python-plain
+    url: http://python.org
+
+
+### GENERAL DATA FOR VARIOUS LOCATIONS ###
+
+# Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
+about: "Defining Technology is a group of solution finders and proud tech enthusiasts, based in the fine city of Glasgow. We craft quality solutions of all shapes and sizes to get problems, solved."
+
+blog_url: "https://blog.defining.tech"

@@ -1,0 +1,54 @@
+---
+layout: index
+title: Home
+permalink: /
+---
+<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
+<div id="service">
+    <div class="container">
+        <div style="padding-top: 30px;" class="row centered">
+            <div class="col-md-4">
+                <i class="fa fa-coffee"></i>
+                <h4>Milk, 1 Sugar, Some Expert Advice</h4>
+                <p>If you're looking for some advice about how to go about solving your problem,
+                big or small, we're always happy to sit down and discuss it over a coffee. Or if you
+                just want to chat about the latest tech announcement, that's cool too.</p>
+            </div>
+            <div class="col-md-4">
+                <i class="fa fa-puzzle-piece"></i>
+                <h4>Find the Missing Piece</h4>
+                <p>We work with you to understand your problems and identify options for solving them. At the end
+              of it all we deliver quality solutions, designed to be flexible.</p>
+            </div>
+            <div class="col-md-4">
+                <i class="fa fa-wrench"></i>
+                <h4>Right Tools for the Job</h4>
+                <p>C# or Java, Elixir or JavaScript, HTML5 or native, monolith or microservices... We strip away
+                  the buzz words and jargon, coming up with options that can help solve your problems.</p>
+            </div>
+        </div>
+
+        <div style="text-align: center; padding-top: 30px; padding-bottom: 30px;">
+          <h2 style="padding-bottom: 30px;">Our Process</h2>
+          <div style="">
+            <img style="width: 100%; max-width: 650px;" src="/assets/img/process-tall.png">
+          </div>
+        </div>
+        <div style="text-align: center; padding-top: 30px;">
+          <h2 style="padding-bottom: 30px;">Technologies</h2>
+          <div style="padding-bottom: 30px;">When crafting solutions, we choose from a wide range
+            of technologies to find the right tool for the job. Below is just a sample of the technologies we've used previously.</div>
+          <div class="row centered">
+            {% for tech in site.technologies %}
+            <div class="col-xs-6 col-sm-2">
+              {% if tech.url != null %}
+                <a href="{{ tech.url }}" target="_blank"><i class="{{ tech.icon }}"></i></a>
+              {% else %}
+                <i class="{{ tech.icon }}"></i>
+              {% endif %}
+            </div>
+            {% endfor %}
+        </div>
+    </div><! --/container -->
+
+</div><! --/service -->
