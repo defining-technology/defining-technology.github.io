@@ -2,15 +2,10 @@
 
 # Site settings
 title: Defining Technology
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-analytics: #Google analytics code in the format XX-nnnnnnnn-n
+about: "Defining Technology are solution finders and proud tech enthusiasts, based in the fine city of Glasgow. We craft quality solutions of all shapes and sizes to get problems, solved."
+analytics: UA-78569409-1
 baseurl: "" #important: start with /
 url: "http://defining.tech"
-
-# Build settings
-markdown: kramdown
-permalink: /:categories/:title
-excerpt_separator: <!--more--> #use this in posts to define how long the excerpt of the post (that is shown on the Blog page) is
 
 colors:  #in hex code if not noted else
   primary: "#17213E" #"#F70031"
@@ -20,7 +15,6 @@ colors:  #in hex code if not noted else
   link_hover: "#01b2fe"
   footer_heading: "#ffffff"
   footer_content: "#bfc9d3"
-
 
 ### CONTACT SETTINGS ###
 
@@ -58,8 +52,5 @@ technologies:
 
 
 ### GENERAL DATA FOR VARIOUS LOCATIONS ###
-
-# Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
-about: "Defining Technology are solution finders and proud tech enthusiasts, based in the fine city of Glasgow. We craft quality solutions of all shapes and sizes to get problems, solved."
 
 blog_url: "https://blog.defining.tech"
