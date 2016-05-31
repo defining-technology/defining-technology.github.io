@@ -380,6 +380,7 @@ a.anchor{
 	background-color: transparent;
 	border-color: white;
 	color: white;
+	line-height: 35px;
 }
 
 .cta-talk:hover {
