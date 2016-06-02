@@ -4,6 +4,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="{{ site.about }}">
     <link rel="shortcut icon" href="/assets/img/favicon.ico" type="image/x-icon" />
+    <!-- Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="{{ site.colors.secondary }}">
+    <!-- Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="{{ site.colors.secondary }}">
+    <!-- iOS Safari -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
 
     <title>{{ site.title }}{% if page.title %} - {{ page.title }}{% endif %}</title>
 
