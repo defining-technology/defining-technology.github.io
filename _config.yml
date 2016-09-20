@@ -5,7 +5,7 @@ title: Defining Technology
 about: "Defining Technology are solution finders and proud tech enthusiasts, based in the fine city of Glasgow. We craft quality solutions of all shapes and sizes to get problems, solved."
 analytics: UA-78569409-1
 baseurl: "" #important: start with /
-url: "http://defining.tech"
+url: "https://www.defining.tech"
 
 colors:  #in hex code if not noted else
   primary: "#17213E" #"#F70031"
